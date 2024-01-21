@@ -1,10 +1,13 @@
 <h1>Security Map SIEM - Azure Sentinel Setup with Cloud-Based Honeypot</h1>
 
-<h2>Description</h2>
 <b>This project focuses on deploying Azure Sentinel, configuring a cloud-based honeypot virtual machine, and visualizing global cyber threats on a map.
 </b>
 <br />
-<br />
+
+<h4>Languages and Utilities Used:</h4>
+
+- <b>PowerShell:</b> Retrieve Windows Event Viewer logs containing unsuccessful RDP login attempts.
+- <b>ipgeolocation.io:</b> Utilize the IP Address to Geolocation API.
 
 <h2 align="center">World map depicting incoming attacks worldwide, using custom logs</h2>
 
@@ -12,6 +15,7 @@
 <img src="https://i.imgur.com/wjY1wUY.jpg" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
 </p>
 
+<h2>Description</h2>
 Follow this step-by-step process to set up the Security Map SIEM project, emphasizing the integration of Azure Sentinel with a cloud-based honeypot. The objective is to offer a practical experience in deploying a Security Information and Event Management (SIEM) system using Microsoft's Azure Sentinel, with a special emphasis on visualizing global cyber threats on a map.
 <br />
 <br />
@@ -37,10 +41,7 @@ Follow this step-by-step process to set up the Security Map SIEM project, emphas
 <br />
 <br />
 
-<h4>Languages and Utilities Used:</h4>
 
-- <b>PowerShell:</b> Retrieve Windows Event Viewer logs containing unsuccessful RDP login attempts.
-- <b>ipgeolocation.io:</b> Utilize the IP Address to Geolocation API.
 
 <h2 align="center">Logs with customized information, including geospatial data</h2>
 
