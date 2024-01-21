@@ -37,7 +37,7 @@ Follow this step-by-step process to set up the Security Map SIEM project, emphas
 <br />
 <br />
 
-<h4>Languages and Utilities Used</h4>
+<h4>Languages and Utilities Used:</h4>
 
 - <b>PowerShell:</b> Retrieve Windows Event Viewer logs containing unsuccessful RDP login attempts.
 - <b>ipgeolocation.io:</b> Utilize the IP Address to Geolocation API.
